@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 219, 219);
+ }
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+ .container{
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px dashed tomato;
+ }
+
+ input{
+    text-align: center;
+    width: 320px;
+    height: 20px;
+    background-color: beige;
+    border: 1px solid black;
+ }
+
+ input[type="submit"]{
+   background-color: rgba(36, 255, 36, 0.685);
+   cursor: pointer;
+ }
+
+ select{
+    text-align: center;
+    margin-bottom: 25px;
+    width: 320px;
+    height: 20px;
+    background-color: beige;
+    border: 1px solid black;
+ }
+
+footer{
+   text-align: center;
+   border: 5px dashed rgba(0, 0, 0, 0.055);
+}

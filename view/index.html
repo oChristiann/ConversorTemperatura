@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Conversor </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> Conversor de temperatura! </h1>
+
+        <input type="text" placeholder="Digite a Temperatura (Celsius)" id="campo">
+
+        <h2> Conversão para: </h2>
+
+        <select id="operadores">
+            <option value="fahrenheit"> Fahrenheit </option>
+            <option value="kelvin"> Kelvin </option>
+        </select>
+
+
+        <input type="submit" value="Converter ↻" onclick="convert_result()">
+
+        <h4> A temperatura convertida é: </h4>
+
+        <div id="result"></div>
+
+
+
+    </div>
+
+    <footer> Desenvolvido por Christian S. Bezerra ®️ 2023 </footer>
+</body>
+
+</html>
